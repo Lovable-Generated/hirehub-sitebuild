@@ -23,6 +23,16 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-foreground mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
+                <Link to="/start-hiring" className="text-sm text-muted-foreground hover:text-brand-primary transition-colors">
+                  Start Hiring
+                </Link>
+              </li>
+              <li>
+                <Link to="/find-a-job" className="text-sm text-muted-foreground hover:text-brand-primary transition-colors">
+                  Find a Job
+                </Link>
+              </li>
+              <li>
                 <Link to="/how-it-works-clients" className="text-sm text-muted-foreground hover:text-brand-primary transition-colors">
                   For Employers
                 </Link>
@@ -50,8 +60,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/blog" className="text-sm text-muted-foreground hover:text-brand-primary transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link to="/faqs" className="text-sm text-muted-foreground hover:text-brand-primary transition-colors">
+                  FAQs
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="text-sm text-muted-foreground hover:text-brand-primary transition-colors">
-                  Contact
+                  Contact Us
                 </Link>
               </li>
             </ul>
@@ -74,7 +94,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 HireHub. All rights reserved.
+              © 2025 HireHub. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-sm text-muted-foreground hover:text-brand-primary transition-colors">
